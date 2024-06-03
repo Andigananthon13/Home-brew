@@ -1,0 +1,56 @@
+body {
+    background-image: url(./images/home-img.jpeg);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.container-form {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    opacity: 0.85;
+    padding: 0 1em;
+}
+
+
+.container {
+    opacity: 0.85;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 1rem 2rem;
+    opacity: 0.85;
+}
+
+.nav h2 {
+    padding-top: 1rem;
+}
+
+.nav img {
+    margin-right: 2rem;
+    margin-top: 1rem;
+    height: 100px;
+}
+
+#back {
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    padding: 2% 13%;
+    width: 100%;
+}
+
+#back a {
+    padding: 0rem 1rem;
+}
+
+@media (max-width:800px) {
+    .nav img {
+        height: 80px;
+        margin-top: 0.5rem;
+    }
+}

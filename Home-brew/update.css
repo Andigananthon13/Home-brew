@@ -1,0 +1,43 @@
+body{
+    background-image: url(./images/home-img.jpeg);
+}
+
+.form {
+    grid-area:form;    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: #010103;
+    opacity: 0.5;
+    height: 100vh;   
+    color: #fff;
+    align-content: center;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.form-con {
+    align-items: center;
+    align-content: center;
+}
+
+
+.form-con div{
+    margin-bottom: 1rem;
+}
+
+.form-con input{
+    padding: 1rem;
+    border: 2px white solid;
+    width: 500px;
+    background: transparent;
+    color: #fff;
+}
+
+.form-con input label {
+    color: #fff;
+}
